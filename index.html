@@ -5,175 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sukhpaala Kaur | Author</title>
     <style>
-        :root {
-            --beige: #f5f5dc;
-            --gold: #d4af37;
-            --dark-grey: #2c2c2c;
-            --soft-white: #fffcf9;
-        }
+        :root { --beige: #f5f5dc; --gold: #d4af37; --dark: #2c2c2c; }
+        body { font-family: 'Georgia', serif; background-color: var(--beige); margin: 0; color: var(--dark); line-height: 1.8; }
+        
+        nav { background: white; padding: 20px; text-align: center; position: sticky; top: 0; box-shadow: 0 2px 10px rgba(0,0,0,0.05); z-index: 1000; }
+        nav a { text-decoration: none; color: var(--dark); margin: 0 15px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; }
 
-        body { 
-            font-family: 'Georgia', serif; 
-            background-color: var(--beige); 
-            margin: 0; 
-            color: var(--dark-grey);
-            line-height: 1.8;
-        }
+        .hero { padding: 80px 20px; text-align: center; background: #fffcf9; border-bottom: 1px solid #eee; }
+        .hero h1 { font-size: 2.5rem; margin: 0; font-weight: normal; }
+        .hero p { font-style: italic; color: var(--gold); margin-top: 10px; }
 
-        nav {
-            background: white;
-            padding: 20px;
-            text-align: center;
-            position: sticky;
-            top: 0;
-            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
-            z-index: 1000;
-        }
+        .container { max-width: 800px; margin: auto; padding: 40px 20px; }
+        
+        .section-title { text-align: center; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 40px; border-bottom: 1px solid var(--gold); display: inline-block; padding-bottom: 5px; }
 
-        nav a {
-            text-decoration: none;
-            color: var(--dark-grey);
-            margin: 0 20px;
-            font-weight: bold;
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
+        /* The Soul Section */
+        .content-box { background: white; padding: 40px; border-radius: 2px; box-shadow: 0 5px 15px rgba(0,0,0,0.02); margin-bottom: 60px; text-align: center; }
+        .gurbani { font-size: 1.3rem; color: var(--gold); margin-bottom: 20px; display: block; }
 
-        .hero {
-            padding: 100px 20px;
-            text-align: center;
-            background: var(--soft-white);
-            border-bottom: 1px solid #e0e0e0;
-        }
-
-        .hero h1 { font-size: 2.8rem; margin: 0; font-weight: normal; }
-        .hero p { font-style: italic; color: var(--gold); margin-top: 10px; font-size: 1.1rem; letter-spacing: 1px; }
-
-        .container { max-width: 850px; margin: auto; padding: 60px 20px; }
-
-        .section-title {
-            text-align: center;
-            font-size: 1.4rem;
-            text-transform: uppercase;
-            letter-spacing: 4px;
-            margin-bottom: 50px;
-            color: var(--dark-grey);
-        }
-
-        .section-title::after {
-            content: '';
-            display: block;
-            width: 40px;
-            height: 1px;
-            background: var(--gold);
-            margin: 15px auto;
-        }
-
-        /* Library Card */
-        .story-card {
-            background: white;
-            padding: 40px;
-            border-radius: 2px;
-            box-shadow: 0 5px 25px rgba(0,0,0,0.03);
-            text-align: center;
-            margin-bottom: 80px;
-        }
-
-        .story-card img { width: 100%; max-width: 350px; margin-bottom: 25px; border: 1px solid #f0f0f0; }
-
-        .btn {
-            background: var(--dark-grey);
-            color: white;
-            padding: 12px 35px;
-            text-decoration: none;
-            font-size: 0.9rem;
-            letter-spacing: 1px;
-            margin-top: 20px;
-            display: inline-block;
-        }
-
-        /* The Soul Section (About) */
-        .soul-content {
-            background: white;
-            padding: 60px 40px;
-            border-radius: 2px;
-            text-align: center;
-            border: 1px solid #f0f0f0;
-        }
-
-        .gurbani-quote {
-            font-size: 1.4rem;
-            color: var(--gold);
-            margin-bottom: 30px;
-            line-height: 2;
-            font-family: 'Tiro Gurmukhi', serif;
-        }
-
-        .upcoming-badge {
-            background: var(--beige);
-            color: var(--gold);
-            padding: 5px 15px;
-            font-size: 0.7rem;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-        }
-
-        footer { text-align: center; padding: 60px; color: #aaa; font-size: 0.7rem; letter-spacing: 1px; }
+        /* Story Card */
+        .story-card { background: white; padding: 30px; text-align: center; border: 1px solid #eee; }
+        .story-card img { width: 100%; max-width: 300px; margin-bottom: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        
+        /* Reading Room */
+        #reading-room { display: none; background: white; padding: 40px; margin-top: 20px; text-align: left; white-space: pre-wrap; border-top: 5px solid var(--gold); }
+        
+        .btn { background: var(--dark); color: white; padding: 12px 30px; text-decoration: none; display: inline-block; margin-top: 20px; cursor: pointer; border: none; font-family: serif; }
+        .btn:hover { background: var(--gold); }
     </style>
 </head>
 <body>
 
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#stories">Library</a>
-        <a href="#about">The Soul</a>
-        <a href="#upcoming">Journal</a>
-    </nav>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">The Soul</a>
+    <a href="#stories">Library</a>
+</nav>
 
-    <section id="home" class="hero">
-        <h1>Sukhpaala Kaur</h1>
-        <p>Inward Reflections. Outward Words.</p>
+<section id="home" class="hero">
+    <h1>Sukhpaala Kaur</h1>
+    <p>Inward Reflections. Outward Words.</p>
+</section>
+
+<div class="container">
+    <section id="about" style="text-align: center;">
+        <h2 class="section-title">The Search Within</h2>
+        <div class="content-box">
+            <span class="gurbani">ਸਭ ਮਹਿ ਜੋਤਿ ਜੋਤਿ ਹੈ ਸੋਈ ॥ ਤਿਸ ਦੈ ਚਾਨਣਿ ਸਭ ਮਹਿ ਚਾਨਣੁ ਹੋਇ ॥</span>
+            <p>I am a soul in search of purpose. I believe that instead of searching the outside world for answers, we must look deep within ourselves. My writing is simply what I find in those quiet moments of looking inward.</p>
+        </div>
     </section>
 
-    <div class="container">
+    <section id="stories" style="text-align: center;">
+        <h2 class="section-title">Current Release</h2>
+        <div class="story-card">
+            <img src="cover.png" alt="Kifayti Cover">
+            <h3>ਕਿਫ਼ਾਇਤੀ (Kifayti)</h3>
+            <p>A story of connection and the light we carry inside.</p>
+            <button class="btn" onclick="showStory()">Read Story Directly Here</button>
+            
+            <div id="reading-room">
+                Loading your story...
+            </div>
+        </div>
+    </section>
+</div>
+
+<script>
+    function showStory() {
+        const room = document.getElementById('reading-room');
+        room.style.display = 'block';
         
-        <section id="about">
-            <h2 class="section-title">The Search Within</h2>
-            <div class="soul-content">
-                <div class="gurbani-quote">
-                    ਸਭ ਮਹਿ ਜੋਤਿ ਜੋਤਿ ਹੈ ਸੋਈ ॥ <br>
-                    ਤਿਸ ਦੈ ਚਾਨਣਿ ਸਭ ਮਹਿ ਚਾਨਣੁ ਹੋਇ ॥
-                </div>
-                <p>I am a soul in search of purpose. Gurbani teaches us that the light of the Divine is within every being, and it is through that light that everything is illuminated. I believe that instead of searching the outside world for answers, we must look deep within ourselves.</p>
-                <p>Everything we seek is already there. My writing is simply the result of what I find in those quiet moments of looking inward—capturing the reflections of the heart and turning them into words to share with the world.</p>
-            </div>
-        </section>
-
-        <section id="stories" style="margin-top: 100px;">
-            <h2 class="section-title">Current Release</h2>
-            <div class="story-card">
-                <img src="kifayti-cover.png" alt="Kifayti Cover">
-                <h3 style="font-weight: normal; font-size: 1.6rem; margin: 10px 0;">ਕਿਫ਼ਾਇਤੀ (Kifayti)</h3>
-                <p style="font-size: 0.95rem; color: #666; max-width: 500px; margin: auto;">A journey through connection and memory, reflecting the resilience found when we truly see one another.</p>
-                <a href="kifayti.pdf" class="btn">Read Now</a>
-            </div>
-        </section>
-
-        <section id="upcoming" style="margin-top: 100px;">
-            <h2 class="section-title">Coming Soon</h2>
-            <div class="soul-content">
-                <span class="upcoming-badge">Work in Progress</span>
-                <h3 style="font-weight: normal; font-size: 1.8rem; margin: 20px 0;">The Debris (ਮਲਬਾ)</h3>
-                <p style="color: #666;">A deeper exploration of the mind's architecture—learning to let go of the past to embrace the light within.</p>
-            </div>
-        </section>
-
-    </div>
-
-    <footer>
-        &copy; 2026 Sukhpaala Kaur | Driven by the Inner Light
-    </footer>
+        // This fetches the text from your uploaded notepad file
+        fetch('kifaytishortstory.txt')
+            .then(response => response.text())
+            .then(data => {
+                room.innerText = data;
+                room.scrollIntoView({ behavior: 'smooth' });
+            });
+    }
+</script>
 
 </body>
 </html>
