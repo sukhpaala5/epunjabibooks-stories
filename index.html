@@ -1,37 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pa">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>E-Punjabi Books & Stories</title>
-<style>
-body {
-font-family: 'Georgia', serif;
-background-color: #f5f5dc; /* A soft beige background */
-margin: 0;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-}
-.main-box {
-background-color: white;
-padding: 40px;
-border-radius: 10px;
-box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-text-align: center;
-border-top: 5px solid #d4af37; /* A gold accent line */
-max-width: 500px;
-}
-h1 { color: #333; }
-p { color: #555; line-height: 1.6; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Punjabi Books & Stories</title>
+    <style>
+        /* Aesthetic Colors & Fonts */
+        :root {
+            --beige: #f5f5dc;
+            --gold: #d4af37;
+            --dark-grey: #333;
+            --soft-white: #fffcf9;
+        }
+
+        body { 
+            font-family: 'Georgia', serif; 
+            background-color: var(--beige); 
+            margin: 0; 
+            color: var(--dark-grey);
+            scroll-behavior: smooth;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            z-index: 1000;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--dark-grey);
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 80px 20px;
+            text-align: center;
+            background: linear-gradient(rgba(245, 245, 220, 0.8), rgba(245, 245, 220, 0.8)), url('your-background-image.jpg');
+            background-size: cover;
+        }
+
+        .hero h1 { font-size: 2.5rem; border-bottom: 2px solid var(--gold); display: inline-block; padding-bottom: 10px; }
+
+        /* Content Sections */
+        .container { max-width: 800px; margin: auto; padding: 40px 20px; }
+
+        .section-title {
+            text-align: center;
+            color: var(--gold);
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+        }
+
+        /* Story Card Layout */
+        .story-grid { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+        
+        .story-card {
+            background: var(--soft-white);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            text-align: center;
+            width: 300px;
+            transition: 0.3s;
+        }
+
+        .story-card:hover { transform: translateY(-10px); }
+
+        .story-card img { width: 100%; border-radius: 8px; margin-bottom: 15px; }
+
+        .btn {
+            background: var(--gold);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        /* About & Upcoming Section */
+        .info-box {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            line-height: 1.8;
+            margin-bottom: 40px;
+        }
+
+        footer { text-align: center; padding: 40px; color: #888; font-size: 0.8rem; }
+    </style>
 </head>
 <body>
-<div class="main-box">
-<h1>E-Punjabi Books & Stories</h1>
-<p>Welcome! This is a peaceful space for exploring stories and creative projects. Stay tuned for updates on my latest work.</p>
-</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#stories">Stories</a>
+        <a href="#about">About</a>
+        <a href="#upcoming">Upcoming</a>
+    </nav>
+
+    <section id="home" class="hero">
+        <h1>E-Punjabi Books & Stories</h1>
+        <p>A peaceful corner for modern Punjabi literature and soul-stirring tales.</p>
+    </section>
+
+    <div class="container">
+        
+        <section id="stories">
+            <h2 class="section-title">Latest Releases</h2>
+            <div class="story-grid">
+                <div class="story-card">
+                    <img src="kifayti-cover.png" alt="Kifayti Cover">
+                    <h3>ਕਿਫ਼ਾਇਤੀ (Kifayti)</h3>
+                    <p>A beautiful story of Snover and Khushraj set in the halls of college life.</p>
+                    <a href="kifayti.pdf" class="btn">Read Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" style="margin-top: 60px;">
+            <h2 class="section-title">About the Author</h2>
+            <div class="info-box">
+                <p>Welcome! I am <strong>Sukhpaala Kaur</strong>. Writing has always been my way of finding internal peace. As a student of French and a lover of Punjabi literature, I aim to bridge the gap between traditional emotions and modern storytelling.</p>
+                <p>This website is my digital library where I share my reflections, stories, and creative journey with you.</p>
+            </div>
+        </section>
+
+        <section id="upcoming">
+            <h2 class="section-title">Upcoming Projects</h2>
+            <div class="info-box" style="border-left: 5px solid var(--gold);">
+                <h3>The Debris (ਮਲਬਾ)</h3>
+                <p>I am currently working on a new book project titled <strong>"The Debris"</strong>. It explores psychological themes of internal peace and moving past the weight of the past. Stay tuned for the release date!</p>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2026 E-Punjabi Books | Designed with Peace
+    </footer>
+
 </body>
 </html>
-
