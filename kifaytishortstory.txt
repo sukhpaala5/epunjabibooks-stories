@@ -1,185 +1,23 @@
-<!DOCTYPE html>
-<html lang="pa">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sukhpaala Kaur | Author</title>
-    <style>
-        :root {
-            --beige: #f5f5dc;
-            --gold: #d4af37;
-            --dark-grey: #2c2c2c;
-            --soft-white: #fffcf9;
-        }
+ਕਿਫ਼ਾਇਤੀ (Kifayti)
 
-        body { 
-            font-family: 'Georgia', serif; 
-            background-color: var(--beige); 
-            margin: 0; 
-            color: var(--dark-grey);
-            line-height: 1.8;
-            scroll-behavior: smooth;
-        }
+੨੦/੩/੨੪
 
-        /* Nav Bar */
-        nav {
-            background: white;
-            padding: 20px;
-            text-align: center;
-            position: sticky;
-            top: 0;
-            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
-            z-index: 1000;
-        }
+ਸਨੋਵਰ ਕਾਲਜ ਦੇ ਪਹਿਲੇ ਸਾਲ ਪੰਜਾਬੀ B.A. ਵਿੱਚ ਦਾਖਲ ਹੁੰਦੀ ਹੈ ਅਤੇ ਉਥੇ ਈ ਉਸ ਦਾ ਜਿਵੇ ਸੁਪਣਾ ਈ ਪੂਰਾ ਹੋ ਗਿਆ ਮਾਂ ਬੋਲੀ ਵਿੱਚ ਡਿਗਰੀ ਕਰਨ ਦਾ। ਖੁਸ਼ੀ ਇੰਨ੍ਹੀ ਸੀ ਕਿ ਜਿਦੀ ਸੀ। ਪਿਤਾ ਕਾਲਜ ਦੇ ਪਹਿਲੇ ਦਿਨ ੧੦੦ ਰੁਪਏ ਦਿੰਦੇ ਸਨੋਵਰ ਨੂੰ ਕਿਹਾ ਮਨ ਲਾ ਕੇ ਪੜ੍ਹਾਈ ਦਰੀ ਅਤੇ ਮੇਰੀ ਪੱਗ ਦੀ ਵੀ ਲਾਜ ਰੱਖੀ। ਪਿੰਡ ਦੇ ਸਕੂਲ ਚੋ ਨਿੱਕਲੀ ਸਧਾਰਣ ਜੀ ਕੁੜੀ ਸਨੋਵਰ ਭੌਲੀ ਭਾਲੀ ਪੜ੍ਹਨ ਵਾਲੀ। ਕਲਾਸ ਵਿਚ ਤੀਸਰੀ ਅਮਨ ਨਾਮ ਦੀ ਕੁੜੀ ਨਾਲ ਚੰਗੀ ਦੋਸਤੀ ਹੋ ਜਾਂਦੀ ਹੈ। ਦੋਵੇ ਬਹੁਤ ਖੁਸ਼ ਸੀ ਇੱਕ ਦੂਜੀ ਨੂੰ ਮਿਲ ਕੇ ਪੜ੍ਹਨ ਵਾਲੀਆਂ ਹੋਣ ਕਾਰਨ।  
 
-        nav a {
-            text-decoration: none;
-            color: var(--dark-grey);
-            margin: 0 20px;
-            font-weight: bold;
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            transition: 0.3s;
-        }
+ਆਉਂਦੇ ਦਿਨਾਂ ਵਿੱਚ ਗੁੜੀਆਂ ਸੱਖੀਆਂ ਬਣ ਗਈਆਂ। ਕਈ ਵਾਰ ਅਮਨ ਪਹਿਲਾ ਪਹੁੰਚ ਜਾਂਦੀ ਤਾ ਸਨੋਵਰ ਲਈ ਜਗ੍ਹਾ ਰੋਕ ਦੇ ਰੱਖਦੀ ਤੇ ਜੇ ਸਨੋਵਰ ਪਹੁੰਚ ਜਾਂਦੀ ਤਾਂ ਉਹ ਅਮਨ ਲਈ ਖਸੇ ਥਾਂ ਰੱਖਣੀ। ਇਸੇ ਤਰਾਂ ਇੱਕ ਸਮੈਸਟਰ ਨਿਕਲ ਗਿਆ। ਦੂਜੇ Semester ਵਿੱਚ ਇੱਕ ਟਰਾਂਸਫਰ ਵਿਦਿਆਰਥੀ ਆਇਆਂ ਖੁਸ਼ਰਾਜ ਉਹ ਬਹੁਤ ਈ ਸੋਹਣਾ ਉਚਾ ਲੰਬਾ ਤੇ ਜਵਾਨ ਸੀ। ਕਾਲੀ ਪੱਗ ਵਿੱਚ ਜਮਾ ਫੱਬਦਾ ਹੁੰਦਾ ਸੀ ਰੰਗ ਦਾ ਬਹੁਤ ਹੀ ਸਾਫ ਸੀ। ਜਦ ਪਹਿਲੇ ਦਿਨ ਕਲਾਸ ਰੂਮ ਵਿੱਚ ਆਇਆਂ ਤਾਂ ਸਾਰੀਆਂ ਕੁੜੀਆਂ ਜਿਵੇ ਓਸ ਵੱਲ ਆਕਰਸ਼ਿਤ ਹੋ ਗਈਆਂ ਸਨੋਵਰ ਨੂੰ ਛੱਡ ਕਿਉਂਕਿ ਉਹ ਸਿਰਫ ਕਾਲਜ਼ ਪੜ੍ਹਨ ਹੀ ਆਈ ਸੀ।  
 
-        nav a:hover { color: var(--gold); }
+ਚਲੋ ਦੂਜੇ ਸਮੈਸਟਰ ਇੱਕ ਮਹੀਨਾ ਨਿਕਲ ਗਿਆ। ਉਹ ਮੁੰਡਾ ਖੁਸ਼ਰਾਜ ਬਹੁਤ ਸੋਹਣੀ ਸ਼ਾਇਰੀ ਤੇ ਕਵਿਤਾ ਲਿਖ ਲੈਂਦਾ ਸੀ ਤੇ ਉਹ ਇਸੇ ਕਰਕੇ ਵੀ ਚਰਚਾ ਦਾ ਵਿਸ਼ਾ ਸੀ। ਉਹ ਹਰ ਰੋਜ਼ ਨੋਟਿਸ ਕਰਦਾ ਕਿ ਸਾਰੀਆਂ ਕੁੜੀਆਂ ਉਸ ਵੱਲ ਆਕਰਸ਼ਿਤ ਹੁੰਦੀਆਂ। ਸਨੋਵਰ ਨੂੰ ਛੱਡ ਕੇ ਬਸ ਇਹ ਗੱਲ ਉਸ ਨੂੰ ਬਹੁਤ ਤੰਗ ਕਰਦੀ ਅਤੇ ਉਹ ਸਨੋਵਰ ਨੂੰ ਅਕਸਰ ਆਨੇ ਬਹਾਨੇ ਬਲਾਉਂਦਾ ਪਰ ਉਹ ਸਿਰਫ਼ ਕੰਮ ਦੀ ਗੱਲ ਤੋਂ ਅੱਗੇ ਹੋਰ ਕੋਈ ਗੱਲ ਨਾ ਕਰਦੀ। ਸਾਰੀਆਂ ਕੁੜੀਆਂ ਹੁਣ ਸਨੋਵਰ ਤੋਂ ਖਾਰ ਖਾਣ ਲੱਗ ਪਈਆਂ ਸਨ ਇੱਥੋਂ ਤੱਕ ਕੇ ਅਮਨ ਦਾ ਵਿਵਹਾਰ ਤਬਦੀਲ ਸੀ। ਸਨੋਵਰ ਬਹੁਤ ਪਰੇਸ਼ਾਨ ਸੀ ਕਿ ਅਮਨ ਨੂੰ ਕੀ ਹੋਇਆ।  
 
-        /* Welcome Section (Top) */
-        .hero {
-            padding: 100px 20px;
-            text-align: center;
-            background: var(--soft-white);
-            border-bottom: 1px solid #e0e0e0;
-        }
+ਉਹ ਉਸ ਨਾਲ ਗੱਲ ਕਿਉਂ ਨਹੀਂ ਕਰਦੀ। ਸਾਰੀਆਂ ਜਮਾਤ ਦੀਆ ਕੁੜੀਆਂ ਹੁਣ ਸਨੋਵਰ ਨੂੰ ਸਿਫ਼ਾਰਸ਼ ਪਾਉਂਦੀਆਂ ਕਿ ਸਾਨੂੰ ਉਸ ਨਾਲ ਗੱਲ ਕਰਾ ਦੇ ਉਹ ਸਿਰਫ ਤੇਰੇ ਨਾਲ ਗੱਲ ਕਰਦਾ ਹੈ ਤੇ ਬਸ ਲਾਰੇ ਲਾਉਂਦਾ। ਸਨੋਵਰ ਨੇ ਸਾਫ ਮਨ੍ਹਾ ਕਰਦੇ ਕਿਹਾ ਕਿ ਮੈਂ ਕਾਲਜ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਆਉਂਦੀ ਹਾਂ ਕਿਸੇ ਦੀ Messenger ਬਣਨ ਨਹੀਂ। ਜਮਾਤਣਾਂ ਹੁਣ ਸਨੋਵਰ ਤੋਂ ਹੋਰ ਖਾਰ ਖਾਣ ਲੱਗ ਪਈਆਂ। ਸਨੋਵਰ ਨੂੰ ਚਿੰਤਾ ਹੋਣ ਲੱਗ ਪਈ ਸੀ ਕਿ ਕਿਤੇ ਗੱਲ ਪਿੰਡ ਨਾ ਪਹੁੰਚ ਜੇ ਕਿਉਂਕਿ ਉਸ ਦੀਆਂ ਕੁੱਝ ਜਮਾਤਣਾ ਤੇ ਜਮਾਤੀ ਉਸਦੇ ਪਿੰਡ ਦੇ ਸਨ। ਚਲੋ ਇਸੇ ਤਰ੍ਹਾਂ ਅਗਲਾ ਸਮੈਸਟਰ ਖਤਮ ਹੋ।  
 
-        .hero h1 { font-size: 2.8rem; margin: 0; font-weight: normal; color: var(--dark-grey); }
-        .hero p { font-style: italic; color: var(--gold); margin-top: 10px; font-size: 1.1rem; letter-spacing: 1px; }
+Next Year Second Sem ਵਿਚ ਇੱਕ ਵਾਰ ਕਵਿਤਾ ਦਾ ਮੁਕਾਬਲਾ ਹੋਇਆ ਤਾਂ ਸਨੋਵਰ ਨੇ ਵੀ ਹਿੱਸਾ ਲਿਆਂ ਅਤੇ ਖੁਸ਼ਰਾਜ ਨੇ ਵੀ ਅਤੇ ਹੋਰ ਵਿਦਿਆਰਥੀਆਂ ਵੀ। ਮੁਕਾਬਲੇ ਵਾਲੇ ਦਿਨ ਸਨੋਵਰ ਬਹੁਤ ਹੀ ਸਜ਼ ਕੇ ਕਾਲਜ ਆਈ। ਸੰਗਤਰੀ ਰੰਗ ਦਾ ਸੂਟ ਤੇ ਨਾਲ ਮੋਰ ਪੰਖੀ ਚੁੰਨੀ ਜਿਵੇ ਅੱਜ ਸਾਰੇ ਸਨੋਵਰ ਨੂੰ ਦੇਖਣ ਈ ਆਏ ਹੋਣ ਸਨੋਵਰ ਥੋੜ੍ਹੀ ਕਣਕਵੰਨੀ ਰੰਗ ਦੀ ਸੀ ਪਰ ਨੈਣ ਨਕਸ਼ ਬਹੁਤ ਹੀ ਆਕਰਸ਼ਿਤ ਸਨ। ਕੋਈ ਵੀ ਇੱਕ ਝਲਕ ਨਾਲ ਸ਼ਹੀਦ ਹੋ ਜਾਏ। ਜਦ ਖੁਸ਼ਰਾਜ ਨੇ ਸਨੋਵਰ ਵੱਲ ਦੇਖਿਆ ਤਾਂ ਉਸਦਾ ਦਿਲ ਕੀਲਿਆ ਗਿਆ। ਉਸਨੂੰ ਉਸ ਦਿਨ ਲੱਗੇ ਜਿਵੇਂ ਦਿਲ ਮੂੰਹ ਰਾਹੀਂ ਬਾਹਰ ਆਊ ਕਿਉਂਕਿ ਉਸ ਦਿਨ ਤੋਂ ਪਹਿਲਾ ਉਹ ਸਨੋਵਰ ਨੂੰ ਸਿਰਫ਼ ਦੂਜਿਆ ਕੁੜੀਆਂ ਵਾਂਗ ਆਪਣੀ ਇੱਕ ਆਕਸ਼ ਬਣਾਉਣਾ ਚਾਹੁੰਦਾ ਸੀ।  
 
-        .container { max-width: 900px; margin: auto; padding: 60px 20px; }
+ਪਰ ਉਸ ਦਿਨ ਉਹ ਆਪ ਸਨੋਵਰ ਦਾ ਆਸ਼ਕ ਬਣ ਗਿਆ ਸੀ। ਉਸਦੀ ਕਵਿਤਾ ਸਨੋਵਰ ਦੀ ਕਵਿਤਾ ਤੋਂ ਕਿਤੇ ਸੋਹਣੀ ਸੀ ਪਰ ਉਹ ਜਾਣ-ਬੁੱਝ ਵਿੱਚੋਂ ਭੁੱਲਣ ਦਾ ਬਹਾਨਾ ਲਾ ਹਾਰ ਗਿਆ। ਸਨੋਵਰ ਮੁਕਾਬਲਾ ਜਿੱਤ ਗਈ ਸੀ। ਸਨੋਵਰ ਨੂੰ ਯਕੀਨ ਨਹੀ ਸੀ ਆ ਰਿਹਾ ਕਿ ਉਹ ਜਿੱਤ ਗਈ ਹੈ ਅਤੇ ਉਸਨੂੰ ਇਹ ਵੀ ਪਤਾ ਸੀ ਕਿ ਇਹ ਖੁਸ਼ਰਾਜ ਨੇ ਜਾਣ ਬੁੱਝ ਕੇ ਕੀਤਾ ਹੈ। ਪਰ ਉਹ ਚੁੱਪ ਰਹੀ। ਕਿਉਂਕਿ ਉਹ ਖੁਸ਼ਰਾਜ ਨੂੰ ਬਦਚਲਣ ਸਮਝਦੀ ਸੀ। ਕਿਉਂਕਿ ਉਹ ਅਕਸਰ ਹੀ ਕੁੜੀਆਂ ਦੇ ਝੁੰਡ ਦੇ ਵਿਚਾਲੇ ਬੈਠਾ ਹੁੰਦਾ ਸੀ ਤੇ ਹਰ ਰੋਜ਼ ਕੁੜੀਆਂ ਲਈ ਓਨ੍ਹਾਂ ਦੀ ਫ਼ਰਮਾਇਸ਼ ਤੇ ਕਵੀਤਾਵਾਂ ਲਿਖ ਕੇ ਦਿੰਦਾ ਸੀ ਕਦੇ ਕਿਸੇ ਦੇ ਤਿਣ ਤੇ, ਕਦੇ ਬੁੱਲ੍ਹਾਂ ਤੇ, ਕਦੇ ਸਰੀਰਕ ਬਣਤਰ ਤੇ। ਸਨੋਵਰ ਨੂੰ ਇਸ ਕਰਕੇ ਉਹ ਪਸੰਦ ਨਹੀਂ ਸੀ।  
 
-        /* The Torn-Paper Aesthetic Card */
-        .story-card {
-            background: #fff;
-            padding: 40px;
-            border-radius: 2px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.04);
-            text-align: center;
-            border: 1px solid #f0f0f0;
-            margin-bottom: 80px;
-        }
+ਇਸੇ ਤਰ੍ਹਾਂ ਕਰਦੇ ਕਰਦੇ ਡਿਗਰੀ ਦਾ ਅੰਤਲਾ ਸਾਲ ਆ ਗਿਆ। ਖੁਸ਼ਰਾਜ ਨੇ ਬਹੁਤ ਹਿੰਮਤ ਕਰ ਸਨੋਵਰ ਨੂੰ ਪੁੱਛ ਲਿਆ ਕਿ ਮੈਂ ਤੈਨੂੰ ਪਸੰਦ ਕਰਦਾ ਹਾਂ ਦਿਲੋਂ ਜਦੋਂ ਵੀ ਮੈਂ ਤੈਨੂੰ ਦੇਖਦਾ ਹਾਂ ਮੇਰਾ ਦਿਲ ਮੇਰੇ ਕਹਿਣੇ 'ਚ ਈ ਨਹੀ ਰਹਿੰਦਾ ਤੇ ਸਨੋਵਰ ਨੇ ਹੱਸ ਕੇ ਕਿਹਾ—ਕਿਫ਼ਾਇਤੀ ਪਿਆਰ ਦੀ ਗੱਲ ਤੋਰ ਮੇਰੇ ਕੋਲ। ਬਹੁਤੀਆਂ ਕੁੜੀਆਂ ਚੋ ਇੱਕ ਬਣਨ ਦਾ ਸੌਂਕ ਨੀ। ਇਹ ਗੱਲ ਖੁਸ਼ਰਾਜ ਦੇ ਦਿਲ ਤੇ ਬਹੁਤ ਗਹਿਰਾ ਅਸਰ ਕਰ ਗਈ ਤੇ ਹੁਣ ਉਹ ਬਾਕੀ ਕੁੜੀਆਂ ਤੋਂ ਬਹੁਤ ਦੂਰ ਰਹਿਣ ਲੱਗ ਪਿਆ ਜਿਵੇ ਉਹ ਸੱਚੀ ਸੱਚੇ ਪਿਆਰ ਚ ਹੋਵੇ। ਸਨੋਵਰ ਬਿਨਾਂ ਕੋਈ ਹੋਰ ਕੁੜੀ ਉਸਨੂੰ ਚੰਗੀ ਨਾ ਲਗਦੀ ਹੋਵੇ।  
 
-        .story-card img {
-            width: 100%;
-            max-width: 350px;
-            height: auto;
-            border: 1px solid #e0e0e0;
-            margin-bottom: 25px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-        }
+ਇਸ ਤਰ੍ਹਾਂ ਈ ਡਿਗਰੀ ਪੂਰੀ ਹੋ ਗਈ ਸਨੋਵਰ ਅੱਗੇ ਪੜ੍ਹਾਈ ਕਰਨ ਲੱਗ ਪਈ। ਖੁਸ਼ਰਾਜ ਪੁਲਿਸ ਚ ਭਰਤੀ ਹੋ ਗਿਆ ਜਿੰਦਗੀ ਆਪਣੀ ਚਾਲ ਚੱਲਦੀ ਗਈ ਸਾਲ ਬੀਤ ਦੇ ਗਏ। ਸਨੋਵਰ ਨੇ MA ਵੀ ਖਤਮ ਕਰ ਲਈ। ਖੁਸ਼ਰਾਜ ਵੀ ਪੇਪਰ ਦੀ ਤਿਆਰੀ ਕਰ ਅੱਗੇ ਪਰਮੋਟ ਹੋ ਗਿਆ। ਸਨੋਵਰ ਖੁਸ਼ਰਾਜ ਨੂੰ ਭੁੱਲ ਚੁੱਕੀ ਸੀ। ਖੁਸ਼ਰਾਜ ਮਨ ਈ ਮਨ ਹਰ ਰੋਜ਼ ਸਨੋਵਰ ਨੂੰ ਯਾਦ ਕਰਦਾ ਤੇ ਫਿਰ ਡੂੰਘੀ ਸੋਚ ਵਿੱਚ ਪੈ ਜਾਂਦਾ। ਇੱਕ ਸ਼ਬਦ ਨੇ ਉਸਨੂੰ ਬਹੁਤ ਸਿੱਖ ਦਿੱਤੀ ਅਤੇ ਉਹ ਕਿੰਨਾ ਬਦਲ ਗਿਆਂ ਸੀ। ਸਨੋਵਰ ਦਾ ਪਿਤਾ ਹੁਣ ਉਸ ਲਈ ਰਿਸ਼ਤਾ ਦੇਖਣ ਲੱਗ ਗਿਆ ਸੀ ਪਰ ਸਨੋਵਰ ਪਹਿਲਾ ਨੌਕਰੀ ਪਾਉਣਾ ਚਾਹੁੰਦੀ ਸੀ।  
 
-        /* Section Titles */
-        .section-title {
-            text-align: center;
-            font-size: 1.4rem;
-            text-transform: uppercase;
-            letter-spacing: 4px;
-            margin-bottom: 50px;
-            color: var(--dark-grey);
-            position: relative;
-        }
+ਪਰ ਕਿਥੇ ਕੁੜੀਆ ਦਾ ਮਾਪਿਆ ਅੱਗੇ ਜੋਰ ਚੱਲਦਾ। ਸਨੋਵਰ ਦਾ ਕਿਸੇ ਸਰਕਾਰੀ ਨੌਕਰੀ ਵਾਲੇ ਮੁਲਾਜਮ ਨਾਲ ਰਿਸ਼ਤਾ ਹੋ ਜਾਂਦਾ ਪਰ ਭੋਲੀ ਸਨੋਵਰ ਨੂੰ ਕੀ ਪਤਾ ਸੀ ਕਿ ਉਸਦਾ ਹੋਣ ਵਾਲਾ ਪਤੀ ਓਹਦਾ ਪੁਰਾਣਾ ਖੁਸ਼ਰਾਜ ਯਾਨੀ ਕਿਫ਼ਾਇਤੀ ਆਸ਼ਕ ਸੀ।  
 
-        .section-title::after {
-            content: '';
-            display: block;
-            width: 40px;
-            height: 1px;
-            background: var(--gold);
-            margin: 15px auto;
-        }
-
-        /* Buttons */
-        .btn {
-            background: var(--dark-grey);
-            color: white;
-            padding: 12px 35px;
-            text-decoration: none;
-            font-size: 0.9rem;
-            letter-spacing: 1px;
-            margin-top: 20px;
-            display: inline-block;
-            transition: 0.4s;
-            border-radius: 2px;
-        }
-
-        .btn:hover { background: var(--gold); }
-
-        /* The Soul Section */
-        .soul-content {
-            background: white;
-            padding: 60px 40px;
-            border-radius: 2px;
-            border: 1px solid #f0f0f0;
-            text-align: center;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.02);
-        }
-
-        .gurbani-quote {
-            font-size: 1.4rem;
-            color: var(--gold);
-            margin-bottom: 30px;
-            line-height: 2;
-        }
-
-        footer { text-align: center; padding: 60px; color: #aaa; font-size: 0.7rem; letter-spacing: 1px; }
-    </style>
-</head>
-<body>
-
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">The Soul</a>
-        <a href="#stories">Library</a>
-    </nav>
-
-    <section id="home" class="hero">
-        <h1>Sukhpaala Kaur</h1>
-        <p>Inward Reflections. Outward Words.</p>
-    </section>
-
-    <div class="container">
-        
-        <section id="about">
-            <h2 class="section-title">The Search Within</h2>
-            <div class="soul-content">
-                <div class="gurbani-quote">
-                    ਸਭ ਮਹਿ ਜੋਤਿ ਜੋਤਿ ਹੈ ਸੋਈ ॥ <br>
-                    ਤਿਸ ਦੈ ਚਾਨਣਿ ਸਭ ਮਹਿ ਚਾਨਣੁ ਹੋਇ ॥
-                </div>
-                <p>I am a soul in search of purpose. Gurbani teaches us that the light of the Divine is within every being, and it is through that light that everything is illuminated. I believe that instead of searching the outside world for answers, we must look deep within ourselves.</p>
-                <p>Everything we seek is already there. My writing is simply the result of what I find in those quiet moments of looking inward—capturing the reflections of the heart and turning them into words to share with the world.</p>
-            </div>
-        </section>
-
-        <section id="stories" style="margin-top: 100px;">
-            <h2 class="section-title">Latest Work</h2>
-            <div class="story-card">
-                <p style="color: #666; background: #fafafa; padding: 20px; border: 1px dashed #ccc; font-style: italic;">
-                    (The image code you are about to paste will go exactly here. It's a very long block of text!)
-                </p>
-                <h3 style="font-weight: normal; font-size: 1.6rem; margin: 10px 0;">ਕਿਫ਼ਾਇਤੀ (Kifayti)</h3>
-                <p style="font-size: 0.95rem; color: #666; max-width: 500px; margin: auto;">A journey through connection and memory, reflecting the resilience found when we truly see one another.</p>
-                <a href="#about" class="btn">Read Now</a>
-            </div>
-        </section>
-
-        <footer>
-            &copy; 2026 Sukhpaala Kaur | Driven by the Inner Light
-        </footer>
-
-    </div>
-
-</body>
-</html>
-
-
+ਲਿਖਤ - ਸੁਖਪਾਲ ਕੌਰ  
